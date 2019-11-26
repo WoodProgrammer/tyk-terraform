@@ -3,16 +3,6 @@ variable "aws_region" {
   description = "AWS region to use for Tyk deployment"
 }
 
-variable "aws_access_key" {
-  type        = "string"
-  description = "AWS access key to use for Tyk deployment"
-}
-
-variable "aws_secret_key" {
-  type        = "string"
-  description = "AWS secret key to use for Tyk deployment"
-}
-
 variable "vpc_id" {
   type        = "string"
   description = "VPC to use for Tyk deployment"
