@@ -11,3 +11,13 @@ See more at:
 
 Full deployment examples are available in the deployments directory.
 
+## Access AWS Resources via TYK Terraform Modules 
+This modules include AWS as a cloud provider, so that if you want to access resources, you should add you credentials tou your `~/.aws/credentials` shown as below ;
+
+```
+[myprofile]
+aws_access_key_id = AWS_ACCESS_KEY_ID
+aws_secret_access_key = AWS_SECRET_KEY_ID
+
+```
+and than you set the `my_profile` to the profile_name variable .
